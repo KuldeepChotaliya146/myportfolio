@@ -1,0 +1,25 @@
+{% extends 'common.html' %}
+{% load static %}
+{% block title %}AboutMe{% endblock title %}
+
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'custom.css' %}">
+<div class="about-section">
+    <div class="inner-container">
+        <h1>About Me</h1>
+        <p class="text">Hey,I'm Kuldeep Chotaliya from Navsari,Gujarat.I am pursued B.Tech Computer Science from Parul
+            Institute Of Technology with aggregate CGPA 8.16.I completed my 12th
+            from AB High School,Navsari with 81.20% and 10th from Sardar Patel High School,Navsari with
+            86.33%.Currently,I am fresher and looking for opportunity to showcase my
+            skills.If You want to know about my work you can visit project section.My long term goal is to become
+            Datascientist.I love to code in python.</p>
+        <div class="skills">
+            <span>Python</span>
+            <span>C/C++</span>
+            <span>Django</span>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
